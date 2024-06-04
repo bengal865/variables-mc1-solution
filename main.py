@@ -9,6 +9,10 @@ num2 = float(input('Please enter a second number: (Example: 3)\n')
 num_squared = num1 ** 2
 num_cubed = num2 ** 3
 
+# Using the `pow()` method
+number_squared = pow(num1, 2)
+number_cubed = pow(num2, 3)
+
 # Output
 # Display the square and cube of the numbers
 print(f'{num1} squared is: {num_squared}')
